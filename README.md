@@ -5,10 +5,11 @@ Page with infos from games for gamers
 
 The following tools were used in the construction of the project:
 
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [Next.js](https://nextjs.org/)
-
+- Next.js
+- Eslint
+- Prettier
+- Styled Components
+- Axios
 
 
 ### Author
