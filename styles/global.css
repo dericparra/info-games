@@ -12,6 +12,13 @@ background-color: #444;
   box-sizing: border-box;
 }
 
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 a {
   color: #0070f3;
   text-decoration: none;
