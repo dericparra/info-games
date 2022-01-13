@@ -20,6 +20,7 @@ export const Title = styled.h1`
 export const GoBackText = styled.p`
   cursor: pointer;
   position: absolute;
+  font-family: 'Nunito', sans-serif;
   left: 0;
   color: white;
   text-decoration: underline;
