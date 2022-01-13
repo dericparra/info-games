@@ -22,6 +22,6 @@ export const GameTitle = styled.h2`
   margin-left: 10px;
 `
 
-export const Img = styled(Image)`
+export const GameImage = styled(Image)`
   border-radius: 7px;
 `

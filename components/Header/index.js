@@ -1,13 +1,19 @@
 import React from 'react'
+import Link from 'next/link'
 
-import { Container, Title } from './style'
+import { Container, Title, GoBackText } from './style'
 
-const Header = () => {
+export default function Header({ hasBack }) {
   return (
     <Container>
+      {hasBack ? (
+        <Link href="/">
+          <GoBackText>Voltar</GoBackText>
+        </Link>
+      ) : (
+        ''
+      )}
       <Title>Info Games</Title>
     </Container>
   )
 }
-
-export default Header
