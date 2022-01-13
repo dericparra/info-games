@@ -11,5 +11,5 @@ export const Subtitle = styled.p`
   text-align: Left;
   font-size: 18px;
   color: white;
-  font-weigth: 700;
+  font-weigth: bolder;
 `
