@@ -31,12 +31,19 @@ const GameMain = ({
           <MetacritNote>{metacritic}</MetacritNote>
           <InfosContainer>
             <InfosList>
-              <InfosItem>{platforms.join(', ')}</InfosItem>
+              <InfosItem>
+                <b>Plataformas: </b>
+                {platforms.join(', ')}
+              </InfosItem>
             </InfosList>
             <InfosList>
-              <InfosItem>{genres.join(', ')} </InfosItem>
+              <InfosItem>
+                <b>Gêneros: </b>
+                {genres.join(', ')}{' '}
+              </InfosItem>
             </InfosList>
             <InfosList>
+              <b>Desenvolvedores: </b>
               <InfosItem>{developer.join(', ')} </InfosItem>
             </InfosList>
           </InfosContainer>

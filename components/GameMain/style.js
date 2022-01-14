@@ -48,17 +48,21 @@ export const GameReview = styled.div`
   background-color: #2f2f2f;
   border-radius: 7px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 1em;
+
   @media (min-width: 580px) {
     max-width: 600px;
   }
 `
-export const MetacritNote = styled.div`
-  width: 45px;
-  height: 45px;
+export const MetacritNote = styled.span`
+  width: 40px;
+  height: 40px;
+  font-size: 14px;
   font-weight: 700;
   background-color: #c4c4c4;
-  border-radius: 45px;
-  margin: 0 15px;
+  border-radius: 100%;
+  margin: 0;
+  padding: 0;
 `
 
 export const InfosContainer = styled.div`

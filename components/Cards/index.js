@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-import { Container, GameTitle, GameImage } from './style'
+import { Container, GameTitle } from './style'
 
 const Cards = ({ title, gameImage, id }) => {
   return (
@@ -11,8 +11,7 @@ const Cards = ({ title, gameImage, id }) => {
         query: { gameId: id }
       }}
     >
-      <Container>
-        <GameImage src={gameImage} width={80} alt="Game" />
+      <Container style={{ backgroundImage: `url(${gameImage})` }}>
         <GameTitle>{title}</GameTitle>
       </Container>
     </Link>

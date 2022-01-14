@@ -4,7 +4,6 @@ export const Container = styled.div`
   display: flex;
   width: 100%;
   align-items flex-start;
-  margin-bottom: 20px
 `
 
 export const Subtitle = styled.p`
