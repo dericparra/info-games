@@ -3,13 +3,13 @@ import styled from 'styled-components'
 export const Container = styled.div`
   display: flex;
   width: 100%;
+  flex-direction: column;
   max-width: 690px;
   padding: 20px;
   height: auto;
   align-items: center;
 
   @media (min-width: 580px) {
-    flex-direction: row;
     padding: 0;
     margin: 40px;
     justify-content: space-between;
@@ -22,9 +22,6 @@ export const TextContainer = styled.div`
   justify-content: flex-start;
   align-text: left;
   margin-bottom: 20px;
-  @media (min-width: 580px) {
-    max-width: 300px;
-  }
 `
 
 export const GameName = styled.h1`
@@ -36,13 +33,9 @@ export const GameName = styled.h1`
 
 export const GameDescription = styled.p`
   width: 100%;
-  max-width: 230px;
   font-size: 14px;
   color: white;
   align-self: flex-start;
-  @media (min-width: 580px) {
-    max-width: 300px;
-  }
 `
 
 export const GameReview = styled.div`
@@ -53,8 +46,6 @@ export const GameReview = styled.div`
   border-radius: 7px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   @media (min-width: 580px) {
-    width: 280px !important;
-    align-self: center;
-    justify-self: center;
+    width: 280px;
   }
 `

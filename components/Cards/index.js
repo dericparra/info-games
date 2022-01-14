@@ -3,17 +3,17 @@ import Link from 'next/link'
 
 import { Container, GameTitle, GameImage } from './style'
 
-const Cards = () => {
+const Cards = ({ title, gameImage, id }) => {
   return (
-    <Link href="/gamePage">
+    <Link
+      href={{
+        pathname: '/gamePage',
+        query: { gameId: id }
+      }}
+    >
       <Container>
-        <GameImage
-          src="/images/cardsImg.jpg"
-          width={80}
-          height={80}
-          alt="Game"
-        />
-        <GameTitle>Jogo bolado de ps1</GameTitle>
+        <GameImage src={gameImage} width={80} alt="Game" />
+        <GameTitle>{title}</GameTitle>
       </Container>
     </Link>
   )

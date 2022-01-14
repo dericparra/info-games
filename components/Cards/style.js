@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import Image from 'next/image'
+//import Image from 'next/image'
 
 export const Container = styled.div`
   display: flex;
@@ -22,6 +22,7 @@ export const GameTitle = styled.h2`
   margin-left: 10px;
 `
 
-export const GameImage = styled(Image)`
+export const GameImage = styled.img`
   border-radius: 7px;
+  widht: 100%;
 `

@@ -23,3 +23,10 @@ export const CardsContainer = styled.div`
     flex-wrap: wrap;
   }
 `
+
+export const Loading = styled.h1`
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+  color: white;
+`
