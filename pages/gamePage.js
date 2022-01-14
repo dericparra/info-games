@@ -5,6 +5,7 @@ import Footer from '../components/Footer'
 import GameHero from '../components/GameHero'
 
 import Head from 'next/head'
+import GameMain from '../components/GameMain/Index'
 
 export default function GamePage() {
   return (
@@ -17,7 +18,7 @@ export default function GamePage() {
       </Head>
       <Header hasBack />
       <GameHero />
-
+      <GameMain />
       <Footer />
     </>
   )
