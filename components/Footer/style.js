@@ -17,3 +17,8 @@ export const Text = styled.p`
   font-weight: 700;
   margin-right: 5px;
 `
+
+export const SiteLink = styled.a`
+  text-decoration: none;
+  color: white;
+`
