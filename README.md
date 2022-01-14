@@ -25,6 +25,7 @@ Para auxiliar com a qualidade e padronização do código, é utilizado ESlint c
 Desenvolvi o App de forma responsiva pensando em diferentes telas e dando um foco para o Mobile.
 Pensando na experiência do usuário também adicionei um botão para o usuário conseguir voltar para a home.
 Além dos requisitos, trouxe também a nota do jogo e a descrição para deixar a página mais rica.
+Escolhi a plataforma Vercel para fazer o Deploy e disponibilizar a aplicação live aqui (https://info-games.vercel.app/)
 
 ### Autor
 ---
