@@ -20,11 +20,17 @@ https://github.com/dericparra/info-games/projects/1
 ### Notas
 
 Optei pelo uso do Next.js, primeiramente, para aproveitar e estudar uma tecnologia nova e alem disso, pelo sistema de rotas e otimizações que ele entrega.
+
 Também optei por não usar nenhum Framework de CSS para ter mais liberdade e como é um teste pequeno, não fazia muito sentido trazer um Framework inteiro só pra pegar poucos componentes.
+
 Para auxiliar com a qualidade e padronização do código, é utilizado ESlint com Prettier.
+
 Desenvolvi o App de forma responsiva pensando em diferentes telas e dando um foco para o Mobile.
+
 Pensando na experiência do usuário também adicionei um botão para o usuário conseguir voltar para a home.
+
 Além dos requisitos, trouxe também a nota do jogo e a descrição para deixar a página mais rica.
+
 Escolhi a plataforma Vercel para fazer o Deploy e disponibilizar a aplicação live aqui (https://info-games.vercel.app/)
 
 ### Autor
