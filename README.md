@@ -12,6 +12,11 @@ The following tools were used in the construction of the project:
 - Axios
 
 
+### Project management
+
+https://github.com/dericparra/info-games/projects/1
+
+
 ### Author
 ---
 
