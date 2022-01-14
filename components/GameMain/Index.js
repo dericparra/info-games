@@ -4,10 +4,22 @@ import {
   GameDescription,
   GameName,
   GameReview,
-  TextContainer
+  TextContainer,
+  InfosList,
+  MetacritNote,
+  InfosContainer,
+  InfosItem
 } from './style'
 
-const GameMain = ({ title, description }) => {
+const GameMain = ({
+  title,
+  description,
+  metacritic,
+  genres,
+  developer,
+  platforms
+}) => {
+  console.log(platforms)
   return (
     <>
       <Container>
@@ -15,7 +27,20 @@ const GameMain = ({ title, description }) => {
           <GameName>{title}</GameName>
           <GameDescription>{description}</GameDescription>
         </TextContainer>
-        <GameReview></GameReview>
+        <GameReview>
+          <MetacritNote>{metacritic}</MetacritNote>
+          <InfosContainer>
+            <InfosList>
+              <InfosItem>{platforms.join(', ')}</InfosItem>
+            </InfosList>
+            <InfosList>
+              <InfosItem>{genres.join(', ')} </InfosItem>
+            </InfosList>
+            <InfosList>
+              <InfosItem>{developer.join(', ')} </InfosItem>
+            </InfosList>
+          </InfosContainer>
+        </GameReview>
       </Container>
     </>
   )

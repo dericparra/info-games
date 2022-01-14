@@ -27,6 +27,23 @@ export default function GamePage() {
       .then(() => setIsLoading(false))
   }, [])
   console.log(gameDetails)
+  const rawPlatforms =
+    gameDetails &&
+    gameDetails.platforms.map((item) => {
+      return item.platform.name
+    })
+
+  const rawGenres =
+    gameDetails &&
+    gameDetails.genres.map((item) => {
+      return item.name
+    })
+
+  const rawDeveloper =
+    gameDetails &&
+    gameDetails.developers.map((item) => {
+      return item.name
+    })
   return (
     <>
       {isLoading ? (
@@ -44,7 +61,12 @@ export default function GamePage() {
           <GameMain
             title={gameDetails.name}
             description={gameDetails.description_raw}
+            metacritic={gameDetails.metacritic}
+            platforms={rawPlatforms}
+            genres={rawGenres}
+            developer={rawDeveloper}
           />
+
           <Footer />
         </>
       )}

@@ -39,13 +39,41 @@ export const GameDescription = styled.p`
 `
 
 export const GameReview = styled.div`
-  width: 280px;
-  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-itens: center;
+  justify-content: flex-start;
+  width: 100%;
   align-self: flex-start;
   background-color: #2f2f2f;
   border-radius: 7px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   @media (min-width: 580px) {
-    width: 280px;
+    max-width: 600px;
   }
+`
+export const MetacritNote = styled.div`
+  width: 45px;
+  height: 45px;
+  font-weight: 700;
+  background-color: #c4c4c4;
+  border-radius: 45px;
+  margin: 0 15px;
+`
+
+export const InfosContainer = styled.div`
+  display: flex;
+  width: 100%;
+`
+export const InfosList = styled.ul`
+  font-size: 12px;
+  padding: 0 5px 0 10px;
+  width: 100%;
+  color: white;
+  list-style: none;
+  margin: 5px;
+`
+
+export const InfosItem = styled.li`
+  display: inline;
 `
