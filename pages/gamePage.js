@@ -26,7 +26,6 @@ export default function GamePage() {
       .then((response) => setGameDetails(response.data))
       .then(() => setIsLoading(false))
   }, [])
-  console.log(gameDetails)
   const rawPlatforms =
     gameDetails &&
     gameDetails.platforms.map((item) => {
@@ -51,6 +50,11 @@ export default function GamePage() {
       ) : (
         <>
           <Head>
+            <title>Info Games: {gameDetails.name}</title>
+            <link
+              rel="icon"
+              href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/313/joystick_1f579-fe0f.png"
+            />
             <link
               href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
               rel="stylesheet"

@@ -19,7 +19,6 @@ const GameMain = ({
   developer,
   platforms
 }) => {
-  console.log(platforms)
   return (
     <>
       <Container>

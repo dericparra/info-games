@@ -55,19 +55,22 @@ export const GameReview = styled.div`
   }
 `
 export const MetacritNote = styled.span`
-  width: 40px;
-  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
   font-size: 14px;
   font-weight: 700;
   background-color: #c4c4c4;
   border-radius: 100%;
-  margin: 0;
+  margin: 0 6px 0 0;
   padding: 0;
 `
 
 export const InfosContainer = styled.div`
   display: flex;
-  width: 100%;
+  width: 80%;
 `
 export const InfosList = styled.ul`
   font-size: 12px;
