@@ -21,7 +21,7 @@ export const TextContainer = styled.div`
   align-items: center;
   justify-content: flex-start;
   align-text: left;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   @media (min-width: 580px) {
     max-width: 300px;
   }
@@ -37,7 +37,7 @@ export const GameName = styled.h1`
 export const GameDescription = styled.p`
   width: 100%;
   max-width: 230px;
-  font-size: 10px;
+  font-size: 14px;
   color: white;
   align-self: flex-start;
   @media (min-width: 580px) {

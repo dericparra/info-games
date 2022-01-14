@@ -15,7 +15,7 @@ export const CardsContainer = styled.div`
   flex-wrap: wrap;
   width: 100%;
   max-width: 610px;
-  align-items: center;
+  align-items: flex-start;
   cursor: pointer;
   justify-content: space-between;
   @media (min-width: 580px) {

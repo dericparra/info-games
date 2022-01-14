@@ -9,6 +9,7 @@ export const Container = styled.div`
 
 export const Subtitle = styled.p`
   text-align: Left;
+  font-weight: 700;
   font-size: 18px;
   color: white;
   font-weigth: bolder;

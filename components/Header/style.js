@@ -21,7 +21,10 @@ export const GoBackText = styled.p`
   cursor: pointer;
   position: absolute;
   font-family: 'Nunito', sans-serif;
-  left: 0;
+  left: 10px;
   color: white;
   text-decoration: underline;
+  @media (min-width: 580px) {
+    left: 0;
+  }
 `
